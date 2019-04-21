@@ -16,11 +16,11 @@ echo $red"           Tool akan di install dalam 5 tahapan"
 echo $red"           Sabaro yo cok, uripmu bakal penak :v"   
 sleep 1
 echo '''\a
-\033[34;1m                              _
-\033[34;1m                             / |
-\033[34;1m                             | |
-\033[34;1m                             | |
-\033[34;1m                             |_|'''
+\033[32;1m                              _
+\033[32;1m                             / |
+\033[32;1m                             | |
+\033[32;1m                             | |
+\033[32;1m                             |_|'''
 sleep 1
 apt update && apt upgrade
 apt install nano
@@ -54,11 +54,11 @@ echo $red"           Tool akan di install dalam 5 tahapan"
 echo $red"           Sabaro yo cok, uripmu bakal penak :v"
 sleep 1
 echo '''\a
-\033[35;1m                            _____
-\033[35;1m                           |___ /
-\033[35;1m                             |_ \
-\033[35;1m                            ___) |
-\033[35;1m                           |____/ '''
+\033[32;1m                            _____
+\033[32;1m                           |___ /
+\033[32;1m                             |_ \
+\033[32;1m                            ___) |
+\033[32;1m                           |____/ '''
 sleep 1
 clear
 echo
@@ -69,11 +69,11 @@ echo $red"           Tool akan di install dalam 5 tahapan"
 echo $red"           Sabaro yo cok, uripmu bakal penak :v"
 sleep 1
 echo '''\a
-\033[33;1m                            _  _
-\033[33;1m                           | || |
-\033[33;1m                           | || |_
-\033[33;1m                           |__   _|
-\033[33;1m                              |_| '''
+\033[32;1m                            _  _
+\033[32;1m                           | || |
+\033[32;1m                           | || |_
+\033[32;1m                           |__   _|
+\033[32;1m                              |_| '''
 sleep 1
 clear
 echo
@@ -84,22 +84,23 @@ echo $red"           Tool akan di install dalam 5 tahapan"
 echo $red"           Sabaro yo cok, uripmu bakal penak :v"
 sleep 1
 echo '''\a
-\033[36;1m                             ____
-\033[36;1m                            | ___|
-\033[36;1m                            |___ \
-\033[36;1m                             ___) |
-\033[36;1m                            |____/ '''
+\033[32;1m                             ____
+\033[32;1m                            | ___|
+\033[32;1m                            |___ \
+\033[32;1m                             ___) |
+\033[32;1m                            |____/ '''
 sleep 1
 clear
 echo
-echo $pur"==================="$cy" ==================="
+echo $cy"==================="$cy" ==================="
 echo $i"XXX"$pu"  AUTHOR  :  SVZAX  "$i"                   XXX"
 echo $i"XXX"$pu"  WhatsApp:  08122545xxxx"$i"              XXX"
 echo $i"XXX"$pu"  GMAIL   :  svnteentthones@gmail.com"$i"  XXX"
 echo $i"XXX"$pu"  IG      :  @drivtomev"$i"                XXX"
-echo $pur"==================="$cy" ==================="
+echo $cy"==================="$cy" ==================="
 echo
-echo $cy"MeNu BRUTEPORCE NeWS:"
+echo $cy"MILEH NYOH:"
+echo
 echo $ku"["$me"1"$ku"]"$i" LAPOR FESBUK"
 echo $ku"["$me"2"$ku"]"$i" NGOCOK PASSWORD"
 echo $ku"["$me"3"$ku"]"$i" NGOCOK PASSWORD FESBUK NGANTI CROT"
@@ -114,8 +115,8 @@ echo $ku"["$me"11"$ku"]"$i" YUTUB-DL"
 echo $ku"["$me"12"$ku"]"$i" NGLACAK PL"
 echo $i"["$me"13"$i"]"$ku" METU"
 echo
-echo $pur"XXX---"$pur"Ketik nomere wae cok"$pur":"
-read -p"XXX---> " pil
+echo $i"XXX---"$cy"Ketik nomere wae cok"$cy":"
+read -p $cy"XXX---> " pil
 
 if [ $pil = 1 ]
 then
@@ -244,21 +245,31 @@ fi
 if [ $pil = 13 ]
 then
 clear
-figlet -f slant "S A B A R"|Ulolcat
-sleep 1
+figlet -f slant "S A B A R"|lolcat
+sleep 2
 echo $cy"Suwun yo cok, wes nganggo tools gawweanku"
-sleep 1
-echo $i"Monggo di enggo mugo2 lancar cok"
-sleep 1
-echo $pur"Nek arep ngejak padu opo gelot pc yo cok"
-sleep 1
+echo
+sleep 2
+echo $cy"Monggo di enggo mugo2 lancar cok"
+echo
+sleep 2
+echo $cy"Nek arep ngejak padu opo gelot pc yo cok"
+echo
+echo
+sleep 2
+echo $cy"==================="$cy" ==================="
 echo $ku"Facebook :"$i" Drivtomev"
 echo $ku"IG       :"$i" @drivtomev"
 echo $ku"WhatsApp :"$i" 08122545xxxx"
-sleep 1
+echo $cy"==================="$cy" ==================="
+echo
+echo
+sleep 2
 echo $pur"Matur suwun sanget lur, wes gari penake to?"
-sleep 1
+echo
+sleep 2
 echo $pur"Ndang Minggat"
-sleep 3
+echo
+sleep 8
 exit
 fi
