@@ -34,7 +34,7 @@ def main():
 
 			print "\033[1;32mJOSS Koe wes mlebu", 
 
-            print "\033[1;32mSaiki bukak = sh raimu.sh",
+                        print "\033[1;32mSaiki bukak : sh raimu.sh",
 
 			sys.exit()
 
