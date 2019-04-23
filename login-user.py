@@ -4,11 +4,11 @@ print ("\033[00mPlease input Username & Password!")
 
 print ("\033[00mmsg. [Readme.md]")
 
-print ("\033[00mUsername : sultan | Password : anjinglah\n\033[1;32m")
+print ("\033[00mUsername : sultan | Password : 9002912\n\033[1;32m")
 
 username = 'sultan'      
 
-password = 'anjinglah'
+password = '9002912'
 
 
 
