@@ -120,7 +120,7 @@ echo $gre"["$yw"12"$gre"]"$gre" Youtube DL"
 echo $gre"["$yw"13"$gre"]"$gre" Locator"
 echo $gre"["$yw"14"$gre"]"$gre" Exit, info & Greeting About This Tools"
 echo
-echo "\033[00mType \033[32;1super \033[00mto see the super tools."
+echo "\033[00mType \033[32;1msuper \033[00mto see the super tools."
 echo
 echo $gre"XXX--->"$gre"Input Number \033[00m(1-14)"$yw":$gre"
 read -p "XXX---> " pil
