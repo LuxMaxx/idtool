@@ -1,7 +1,1 @@
-THIS TOOLS IS ORIGINAL BY SULTAN KAUTSAR.
-
-XXX  PHYTON LOGIN          XXX
-XXX  USERNAME : sultan     XXX
-XXX  PASSWORD : anjinglah  XXX
-
-INDONESIAN CREATIVE SHELL.
+The "idtool" created by SVZAX on Linux (UNIX) system. This tools versions is 13.3.211 where programmed by Shell(.sh) | Python, Pythonpy, Python2, Python3(.py). source https://github.com/svzax/idtool build in INDONESIA (ID).
