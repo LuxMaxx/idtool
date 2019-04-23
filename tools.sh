@@ -7,13 +7,7 @@ red='\033[31;1m' #red
 pe='\033[37;1m' #purple
 yw='\033[33;1m' #yellow
 
-sleep 2
-echo
-echo
-echo
-#Login
-python2 login-user.py
-sleep 3
+sleep 1
 
 clear
 echo
