@@ -16,7 +16,7 @@ sleep 3
 
 #LoadTools
 clear
-figlet -f slant "   UPDATE"|lolcat
+figlet -f slant "   SUPERTOOLS"|lolcat
 sleep 2
 echo
 echo "        \033[32;1mLoading tools..."
