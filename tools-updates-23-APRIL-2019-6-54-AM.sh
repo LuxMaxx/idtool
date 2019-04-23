@@ -43,7 +43,7 @@ echo $gre"["$yw"a"$gre"]"$gre"  NASA DDoS injector \033[00m(Warning!)"
 echo $gre"["$yw"b"$gre"]"$gre"  SQLmap             \033[00m(Warning!)"
 echo $gre"["$yw"z"$gre"]"$gre"  Exit, info & Greeting About This Tools"
 echo
-echo $gre"XXX--->"$gre"Input Letter \033[00m(a-b)"$yw":"
+echo $gre"XXX--->"$gre"Input Letter \033[00m(a-b)"$yw":\033[32;1m"
 read -p "XXX---> " pil
 
 #UPDATE IF
@@ -117,7 +117,7 @@ then
 clear
 figlet -f slant "   sqlmap"|lolcat
 sleep 1
-sudo apt install sqlmap
+pkg install sqlmap
 sleep 1
 clear
 sqlmap
