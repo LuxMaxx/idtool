@@ -32,4 +32,3 @@ echo '\033[32;1mOpening Tools...'
 sleep 10
 chmod +x tools.sh
 sh tools.sh
-fi
