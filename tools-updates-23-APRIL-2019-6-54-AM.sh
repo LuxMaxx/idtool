@@ -7,6 +7,9 @@ pe='\033[37;1m' #purple
 yw='\033[33;1m' #yellow
 clear
 sleep 2
+echo
+echo
+echo
 #Login
 python2 login-user2.py
 sleep 2
