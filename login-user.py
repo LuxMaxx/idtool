@@ -22,11 +22,11 @@ def restart():
 
 def main():
 
-	uname = raw_input("Username : ")
+	uname = raw_input("Username : \033[00m")
 
 	if uname == username:
 
-		pwd = raw_input("Password : ")
+		pwd = raw_input("Password : \033[00m")
 
 
 
@@ -40,7 +40,7 @@ def main():
 
 		else:
 
-			print "\033[1;31m\n\nAccess Denied.\033[00m"
+			print "\033[1;31m\nAccess Denied.\033[00m"
 
 			restart()
 
@@ -48,7 +48,7 @@ def main():
 
 	else:
 
-		print "\033[1;31m\n\nAccess Denied.\033[00m"
+		print "\033[1;31m\nAccess Denied.\033[00m"
 
 		restart()
 
