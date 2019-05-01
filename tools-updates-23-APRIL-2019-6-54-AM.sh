@@ -31,17 +31,17 @@ echo $yw" >"$gre"  Source     :  https://github.com/svzax/idtool"$yw""
 echo $yw" >"$gre"  Country    :  INDONESIA (ID)"$yw""
 echo $yw" ======================="$yw" ======================="
 echo
-echo $yw"Input Choice:"
+echo $yw" Input Choice:"
 echo "\033[00m Some tools, are (Warning!). Think before you use it!"
 echo "\033[00m Some tools, are not work. We will fix it ASAP."
 echo "\033[00m If you're not type input / some wrong input, it will auto exits."
 echo
-echo $gre" ["$yw"a"$gre"]"$gre"  NASA DDoS injector \033[00m(Warning! | Server down until we fix it.)"
+echo $gre" ["$yw"a"$gre"]"$gre"  NASA DDoS injector \033[00m(Warning! Server down until we fix it.)"
 echo $gre" ["$yw"b"$gre"]"$gre"  SQLmap             \033[00m(Warning!)"
 echo $gre" ["$yw"z"$gre"]"$gre"  Exit, info & Greeting About This Tools"
 echo
-echo $gre"XXX---> "$gre"Input Letter \033[00m(a-b)"$yw":"
-read -p " XXX---> ""\033[0mm" pil
+echo $gre" XXX---> "$gre"Input Letter \033[00m(a-b)"$yw":"
+read -p " XXX---> " pil
 
 #UPDATE IF
 if [ $pil = a ]
@@ -95,25 +95,27 @@ echo "\033[32;1m Checking requirements...        100%"
 sleep 10
 clear
 echo
-echo "\033[00m DDoS has a system and server failure, please wait for repairs from the developer"
+echo "\033[00m DDoS has a system and server failure"
+echo "\033[00m Please wait for repairs from the developer"
 sleep 2
 clear
 echo
 echo "\033[00m The server failed 0x0000b4"
-clear
+sleep 0.7
 echo
 echo "\033[00m The server failed 0x0000c8"
-clear
+sleep 0.3
 echo
 echo "\033[00m The server failed 0x0000b2"
-sleep 1
+sleep 5
 clear
 echo
 echo "\033[31;1m DDoS has a problem in the system section."
 sleep 2
-echo
 echo "\033[00m Exiting..."
 sleep 4
+echo
+echo
 fi
 
 if [ $pil = b ]
