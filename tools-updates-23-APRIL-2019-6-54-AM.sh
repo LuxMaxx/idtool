@@ -41,7 +41,7 @@ echo $gre" ["$yw"b"$gre"]"$gre"  SQLmap             \033[00m(Warning!)"
 echo $gre" ["$yw"z"$gre"]"$gre"  Exit, info & Greeting About This Tools"
 echo
 echo $gre"XXX---> "$gre"Input Letter \033[00m(a-b)"$yw":"
-read -p "XXX---> \033[00m" pil
+read -p " XXX---> ""\033[0mm" pil
 
 #UPDATE IF
 if [ $pil = a ]
