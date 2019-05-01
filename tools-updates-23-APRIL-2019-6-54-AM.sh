@@ -41,7 +41,7 @@ echo $gre" ["$yw"b"$gre"]"$gre"  SQLmap             \033[00m(Warning!)"
 echo $gre" ["$yw"z"$gre"]"$gre"  Exit, info & Greeting About This Tools"
 echo
 echo $gre"XXX---> "$gre"Input Letter \033[00m(a-b)"$yw":"
-read -p "XXX---> \033[00m"pil
+read -p "XXX---> \033[00m" pil
 
 #UPDATE IF
 if [ $pil = a ]
@@ -132,31 +132,31 @@ then
 clear
 figlet -f slant "   EXIT"|lolcat
 sleep 2
-echo $gre"Thanks for using my Script!"
+echo $gre" Thanks for using my Script!"
 echo
 sleep 2
-echo $gre"Script shell is created on : April 23, 2019"
-echo $gre"@ 6.54 AM | INDONESIA (ID)"
+echo $gre" Script shell is created on : April 23, 2019"
+echo $gre" @ 6.54 AM | INDONESIA (ID)"
 echo
 sleep 2
-echo $gre"Contact Me!"
-echo
-echo
-sleep 2
-echo $yw"======================="$yw" ======================="
-echo $yw"XXX"$gre"  AUTHOR    :  SVZAX"$yw"                     XXX"
-echo $yw"XXX"$gre"  WhatsApp  :  0812-2545-9071"$yw"            XXX"
-echo $yw"XXX"$gre"  GMAIL     :  svnteentthones@gmail.com"$yw"  XXX"
-echo $yw"XXX"$gre"  Facebook  :  Drivtomev"$yw"                 XXX"
-echo $yw"XXX"$gre"  IG        :  @drivtomev"$yw"                XXX"
-echo $yw"======================="$yw" ======================="
+echo $gre" Contact Me!"
 echo
 echo
 sleep 2
-echo $gre"Goodbye!"
+echo $yw" ======================="$yw" ======================="
+echo $yw" XXX"$gre"  AUTHOR    :  SVZAX"$yw"                     XXX"
+echo $yw" XXX"$gre"  WhatsApp  :  0812-2545-9071"$yw"            XXX"
+echo $yw" XXX"$gre"  GMAIL     :  svnteentthones@gmail.com"$yw"  XXX"
+echo $yw" XXX"$gre"  Facebook  :  Drivtomev"$yw"                 XXX"
+echo $yw" XXX"$gre"  IG        :  @drivtomev"$yw"                XXX"
+echo $yw" ======================="$yw" ======================="
+echo
+echo
+sleep 2
+echo $gre" Goodbye!"
 echo
 sleep 1
-echo $gre"Exiting Tools . . ."
+echo $gre" Exiting Tools . . ."
 echo
 sleep 5
 fi
