@@ -1,12 +1,12 @@
 import os, sys
 
-print ("\033[00mPlease input Username & Password!")
+print ("\033[00m Please input Username & Password!")
 
-print ("\033[00mmsg. [Readme.md]")
+print ("\033[00m msg. \033[1;31m[\033[00mReadme.md\033[1;31m]")
 
-print ("\033[00mYou've tried to use the \033[1;31mSUPER TOOL. \033[00mSo, you should to input this login form.")
+print ("\033[00m You've tried to use the \033[1;31mSUPER TOOL. \033[00mSo, you should to input this login form.")
 
-print ("\033[00mUsername : sultan | Password : 0223472\n\033[1;32m")
+print ("\033[00m Username : sultan | Password : 0223472\n\033[1;32m")
 
 username = 'sultan'      
 
@@ -24,17 +24,17 @@ def restart():
 
 def main():
 
-	uname = raw_input("Username : \033[00m")
+	uname = raw_input(" Username : \033[00m")
 
 	if uname == username:
 
-		pwd = raw_input("Password : \033[00m")
+		pwd = raw_input("\033[1;32m Password : \033[00m")
 
 
 
 		if pwd == password:
 
-			print "\033[1;32m\nAccess Granted.", 
+			print "\033[1;32m\n Access Granted.", 
 
 			sys.exit()
 
@@ -42,7 +42,7 @@ def main():
 
 		else:
 
-			print "\033[1;31m\nAccess Denied.\033[00m"
+			print "\033[1;31m\n Access Denied.\033[00m"
 
 			restart()
 
@@ -50,7 +50,7 @@ def main():
 
 	else:
 
-		print "\033[1;31m\nAccess Denied.\033[00m"
+		print "\033[1;31m\n Access Denied.\033[00m"
 
 		restart()
 
