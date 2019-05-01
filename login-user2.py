@@ -4,7 +4,7 @@ print ("\033[00m Please input Username & Password!")
 
 print ("\033[00m msg. \033[1;31m[\033[00mReadme.md\033[1;31m]")
 
-print ("\033[00m You've tried to use the \033[1;31mSUPER TOOL. \033[00mSo, you should to input this login form.")
+print ("\033[00m You've tried to use the \033[1;31mSUPER TOOL.\n \033[00mSo, you should to input this login form.")
 
 print ("\033[00m Username : sultan | Password : 0223472\n\033[1;32m")
 
