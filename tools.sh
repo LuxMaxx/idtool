@@ -7,14 +7,20 @@ red='\033[31;1m' #red
 pe='\033[37;1m' #purple
 yw='\033[33;1m' #yellow
 
-sleep 1
+sleep 2
+echo
+echo
+echo
+#Login
+python2 login-user.py
+sleep 3
 
 clear
 echo
 echo
 echo
 echo
-echo $gre"           Tool akan di install dalam 5 tahapan"
+echo $gre"           The installation will be configured in 5 stages \033[00m1/5"
 echo $gre"           Loading . . ."   
 sleep 1
 echo '''\a
@@ -29,7 +35,7 @@ echo
 echo
 echo
 echo
-echo $gre"           Tool akan di install dalam 5 tahapan"
+echo $gre"           The installation will be configured in 5 stages \033[00m2/5"
 echo $gre"           Loading . . ."
 sleep 1
 echo '''\a
@@ -44,7 +50,7 @@ echo
 echo
 echo
 echo
-echo $gre"           Tool akan di install dalam 5 tahapan"
+echo $gre"           The installation will be configured in 5 stages \033[00m3/5"
 echo $gre"           Loading . . ."
 sleep 1
 echo '''\a
@@ -59,7 +65,7 @@ echo
 echo
 echo
 echo
-echo $gre"           Tool akan di install dalam 5 tahapan"
+echo $gre"           The installation will be configured in 5 stages \033[00m4/5"
 echo $gre"           Loading . . ."
 sleep 1
 echo '''\a
@@ -74,7 +80,7 @@ echo
 echo
 echo
 echo
-echo $gre"           Tool akan di install dalam 5 tahapan"
+echo $gre"           The installation will be configured in 5 stages \033[00m5/5"
 echo $gre"           Loading . . ."
 sleep 1
 echo '''\a
@@ -86,38 +92,38 @@ echo '''\a
 sleep 2
 clear
 echo
-echo $yw"======================="$yw" ======================="
-echo $yw">"$gre"  AUTHOR     :  SVZAX"$yw""
-echo $yw">"$gre"  Builder OS :  Linux (UNIX)"$yw""
-echo $yw">"$gre"  Version    :  13.3.211"$yw""
-echo $yw">"$gre"  Lang       :  Shell(.sh) | Python, Pythonpy, Python2, Python3(.py)"$yw""
-echo $yw">"$gre"  Source     :  https://github.com/svzax/idtool"$yw""
-echo $yw">"$gre"  Country    :  INDONESIA (ID)"$yw""
-echo $yw"======================="$yw" ======================="
+echo $yw" ======================="$yw" ======================="
+echo $yw" >"$gre"  AUTHOR     :  SVZAX"$yw""
+echo $yw" >"$gre"  Builder OS :  Linux (UNIX)"$yw""
+echo $yw" >"$gre"  Version    :  13.3.211"$yw""
+echo $yw" >"$gre"  Lang       :  Shell(.sh) | Python, Pythonpy, Python2, Python3(.py)"$yw""
+echo $yw" >"$gre"  Source     :  https://github.com/svzax/idtool"$yw""
+echo $yw" >"$gre"  Country    :  INDONESIA (ID)"$yw""
+echo $yw" ======================="$yw" ======================="
 echo
 echo $yw"Input Choice:"
-echo "\033[00mSome tools, are not work. We will fix it ASAP."
-echo "\033[00mIf you're not type input / some wrong input, it will auto exits."
+echo "\033[00m Some tools, are not work. We will fix it ASAP."
+echo "\033[00m If you're not type input / some wrong input, it will auto exits."
 echo
-echo $gre"["$yw"1"$gre"]"$gre"  Report Facebook Account (With ID)"
-echo $gre"["$yw"2"$gre"]"$gre"  Brute Force"
-echo $gre"["$yw"3"$gre"]"$gre"  Brute Forcer for Facebook Account"
-echo $gre"["$yw"4"$gre"]"$gre"  Instainsane Brute Forcer"
-echo $gre"["$yw"5"$gre"]"$gre"  (Multi) Brute Forcer for Facebook Account"
-echo $gre"["$yw"6"$gre"]"$gre"  Cloning Yahoo (Login with Yahoo Account)"
-echo $gre"["$yw"7"$gre"]"$gre"  Open Source Information Facebook"
-echo $gre"["$yw"8"$gre"]"$gre"  Profil Guard (Shield) Facebook"
-echo $gre"["$yw"9"$gre"]"$gre"  Bot React for Facebook"
-echo $gre"["$yw"10"$gre"]"$gre" Spam Call"
-echo $gre"["$yw"11"$gre"]"$gre" Spam WhatsApp"
-echo $gre"["$yw"12"$gre"]"$gre" Youtube DL"
-echo $gre"["$yw"13"$gre"]"$gre" Locator"
-echo $gre"["$yw"14"$gre"]"$gre" Exit, info & Greeting About This Tools"
+echo $gre" ["$yw"1"$gre"]"$gre"  Report Facebook Account (With ID)"
+echo $gre" ["$yw"2"$gre"]"$gre"  Brute Force"
+echo $gre" ["$yw"3"$gre"]"$gre"  Brute Forcer for Facebook Account"
+echo $gre" ["$yw"4"$gre"]"$gre"  Instainsane Brute Forcer"
+echo $gre" ["$yw"5"$gre"]"$gre"  (Multi) Brute Forcer for Facebook Account"
+echo $gre" ["$yw"6"$gre"]"$gre"  Cloning Yahoo (Login with Yahoo Account)"
+echo $gre" ["$yw"7"$gre"]"$gre"  Open Source Information Facebook"
+echo $gre" ["$yw"8"$gre"]"$gre"  Profil Guard (Shield) Facebook"
+echo $gre" ["$yw"9"$gre"]"$gre"  Bot React for Facebook"
+echo $gre" ["$yw"10"$gre"]"$gre" Spam Call"
+echo $gre" ["$yw"11"$gre"]"$gre" Spam WhatsApp"
+echo $gre" ["$yw"12"$gre"]"$gre" Youtube DL"
+echo $gre" ["$yw"13"$gre"]"$gre" Locator"
+echo $gre" ["$yw"14"$gre"]"$gre" Exit, info & Greeting About This Tools"
 echo
-echo "\033[00mType \033[32;1msuper \033[00mto see the super tools."
+echo "\033[00m Type \033[32;1msuper \033[00mto see the super tools."
 echo
-echo $gre"XXX--->"$gre"Input Number \033[00m(1-14)"$yw":$gre"
-read -p "XXX---> " pil
+echo $gre" XXX---> "$gre"Input Number \033[00m(1-14)"$yw":$gre"
+read -p " XXX---> \033[00m"pil
 
 if [ $pil = 1 ]
 then
@@ -143,7 +149,7 @@ fi
 if [ $pil = 3 ]
 then
 clear
-figlet -f slant "3"|lolcat
+figlet -f slant "   3"|lolcat
 sleep 1
 git clone https://github.com/FR13ND8/Fb-Cracker-v.3.git
 cd Fb-Cracker-v.3
@@ -156,20 +162,29 @@ clear
 figlet -f slant "   4"|lolcat
 sleep 1
 git clone https://github.com/thelinuxchoice/instainsane.git
+sleep 1
+clear
+echo
+echo '\033[32;1m Entering Directory...'
+sleep 2
 cd instainsane
+clear
+echo
+echo '\033[32;1m chmod-ing shell...'
+sleep 2
 chmod +x instainsane.sh && chmod +x install.sh
 clear
 echo
-echo '\033[32;1mInstalling...'
+echo '\033[32;1m Installing...'
 sleep 5
 clear
 echo
-echo '\033[32;1mAll Required, aovid to run...'
-sleep 9
+echo '\033[32;1m Everything is installed, Time to execute the command...'
+sleep 10
 clear
 echo
-echo '\033[32;1mType "./install.sh && ./instainsane.sh" in ur terminal to run this program, or copying that commands.'
-sleep 5
+echo '\033[32;1m Type "./install.sh && ./instainsane.sh" in ur terminal to run this program, or copying that commands.'
+sleep 3
 sudo su
 sleep 1
 exit
@@ -272,32 +287,35 @@ if [ $pil = 14 ]
 then
 clear
 figlet -f slant "   EXIT"|lolcat
-sleep 2
-echo $gre"Thanks for using my Script!"
-echo
-sleep 2
-echo $gre"Script shell is created on : March 30, 2019"
-echo $gre"@ 7.21 AM | INDONESIA (ID)"
-echo
-sleep 2
-echo $gre"Contact Me!"
+sleep 3
+clear
 echo
 echo
+echo $gre" Thanks for using my Script!"
+echo
 sleep 2
-echo $yw"======================="$yw" ======================="
-echo $yw"XXX"$gre"  AUTHOR    :  SVZAX"$yw"                     XXX"
-echo $yw"XXX"$gre"  WhatsApp  :  0812-2545-9071"$yw"            XXX"
-echo $yw"XXX"$gre"  GMAIL     :  svnteentthones@gmail.com"$yw"  XXX"
-echo $yw"XXX"$gre"  Facebook  :  Drivtomev"$yw"                 XXX"
-echo $yw"XXX"$gre"  IG        :  @drivtomev"$yw"                XXX"
-echo $yw"======================="$yw" ======================="
+echo $gre" Script shell is created on : March 30, 2019"
+echo $gre" @ 7.21 AM | INDONESIA (ID)"
+echo
+sleep 2
+echo $gre" Contact Me!"
 echo
 echo
 sleep 2
-echo $gre"Goodbye!"
+echo $yw" ======================="$yw" ======================="
+echo $yw" XXX"$gre"  AUTHOR    :  SVZAX"$yw"                     XXX"
+echo $yw" XXX"$gre"  WhatsApp  :  0812-2545-9071"$yw"            XXX"
+echo $yw" XXX"$gre"  GMAIL     :  svnteentthones@gmail.com"$yw"  XXX"
+echo $yw" XXX"$gre"  Facebook  :  Drivtomev"$yw"                 XXX"
+echo $yw" XXX"$gre"  IG        :  @drivtomev"$yw"                XXX"
+echo $yw" ======================="$yw" ======================="
+echo
+echo
+sleep 2
+echo $gre" Goodbye!"
 echo
 sleep 1
-echo $gre"Exiting Tools . . ."
+echo $gre" Exiting Tools . . ."
 echo
 sleep 5
 fi
