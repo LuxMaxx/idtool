@@ -123,7 +123,7 @@ echo
 echo "\033[00m Type \033[32;1msuper \033[00mto see the super tools."
 echo
 echo $gre" XXX---> "$gre"Input Number \033[00m(1-14)"$yw":$gre"
-read -p " XXX---> \033[00m"pil
+read -p " XXX---> \033[00m" pil
 
 if [ $pil = 1 ]
 then
