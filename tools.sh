@@ -101,7 +101,7 @@ echo $yw" >"$gre"  Source     :  https://github.com/svzax/idtool"$yw""
 echo $yw" >"$gre"  Country    :  INDONESIA (ID)"$yw""
 echo $yw" ======================="$yw" ======================="
 echo
-echo $yw"Input Choice:"
+echo $yw" Input Choice:"
 echo "\033[00m Some tools, are not work. We will fix it ASAP."
 echo "\033[00m If you're not type input / some wrong input, it will auto exits."
 echo
@@ -123,7 +123,7 @@ echo
 echo "\033[00m Type \033[32;1msuper \033[00mto see the super tools."
 echo
 echo $gre" XXX---> "$gre"Input Number \033[00m(1-14)"$yw":$gre"
-read -p " XXX---> \033[00m" pil
+read -p " XXX---> ""\033[0mm" pil
 
 if [ $pil = 1 ]
 then
