@@ -2,7 +2,7 @@ import os, sys
 
 print ("\033[00m Please input Username & Password!")
 
-print ("\033[00m msg. [Readme.md]")
+print ("\033[00m msg. \033[1;31m[\033[00mReadme.md\033[1;31m]")
 
 print ("\033[00m Username : sultan | Password : 9002912\n\033[1;32m")
 
